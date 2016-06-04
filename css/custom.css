@@ -2,12 +2,21 @@
 body {
 /*margin-top:50px; */
 margin-bottom:80px; 
-color: #fff;
+color: #080708;
 background: #fff;
 font-family: "proxima-nova",sans-serif;
 font-size: 17px;
-font-weight: 300;
+font-weight: 400;
 line-height: 1.35em;
+}
+
+a{
+	color: #0006FF;
+}
+
+a:hover{
+	color: #FF331F;
+	text-decoration: none;
 }
 
 h1 {
@@ -18,12 +27,76 @@ h1 {
 	margin: 0 0 25px;
 }
 
+img {
+	width: 100%;
+	margin: 0 0 8px;
+}
+
+.right {
+	float: right;
+}
+
 .first-screen {
 	background-color: #060990;
 	padding: 0 0 100px 0;
+	color: #fff;
 }
 
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
 }
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.futures{
+	padding: 50px 15px 60px;
+}
+
+.cards{
+	padding: 15px 0px 20px;
+}
+
+.footer{
+	margin-top: 50px;
+	font-size: 14px;
+}
+
+.btn-default {
+	border-radius: 2px;
+	border-color: transparent;
+	background-color: #FFE66D;
+	font-size: 18px;
+}
+
+.btn-default:hover{
+	background-color: #FF331F;
+	border-color: transparent;
+	color: #fff;
+}
+
+.neighbor {
+	margin-bottom: 20px;
+}
+
+.neighbor:hover .title_neighbor{
+	color: #FF331F;
+}
+
+
+
+
+
+
+
+
+
