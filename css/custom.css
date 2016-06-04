@@ -2,10 +2,28 @@
 body {
 /*margin-top:50px; */
 margin-bottom:80px; 
-color:#fff;
-background: #191e26;
+color: #fff;
+background: #fff;
 font-family: "proxima-nova",sans-serif;
 font-size: 17px;
 font-weight: 300;
 line-height: 1.35em;
+}
+
+h1 {
+	line-height: 1em;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 62px;
+	margin: 0 0 25px;
+}
+
+.first-screen {
+	background-color: #060990;
+	padding: 0 0 100px 0;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
 }
